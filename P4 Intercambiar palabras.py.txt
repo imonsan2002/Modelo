@@ -1,0 +1,6 @@
+n=(input("dime una frase de dos palabras ->"))
+b=n .find(" ")
+z=b+1
+j=(n[0:z])
+k=(n[z:])
+print(k+" "+j)
