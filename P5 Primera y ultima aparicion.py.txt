@@ -1,0 +1,6 @@
+cadena=input("Dame una cadena ->")
+letra=input("¿Que letra buscas en la cadena? ->")
+primera=cadena .find(letra)
+print(primera+1)
+segunda=cadena .rfind(letra)
+print(segunda+1)
