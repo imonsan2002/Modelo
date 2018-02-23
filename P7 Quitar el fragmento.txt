@@ -1,0 +1,7 @@
+cadena=("sabes si hay mucha hierba en el parque")
+print(cadena)
+primera=cadena .find("h")
+print(primera)
+segunda=cadena .rfind("h")
+print(segunda)
+print(cadena.replace(cadena[primera:segunda],""))
