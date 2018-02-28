@@ -1,0 +1,2 @@
+cadena=input("Dime una cadena con 1 ->")
+print(cadena.replace("1","uno")) 
