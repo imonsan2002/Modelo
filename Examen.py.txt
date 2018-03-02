@@ -1,0 +1,4 @@
+cadena=("Dame una cadena con mas de dos t ->")
+primera=cadena .find("t")
+segunda=cadena .rfind("t")
+print(cadena[primera+1:segunda])
